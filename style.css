@@ -1,7 +1,18 @@
-header,section,aside,footer{
-  background:rgba{255,255,255,1};
-  
+body{
+  background:rgb(255,255,255);
 }
+
+header,section,aside,footer{
+  background:rgba{255,255,255,1};  
+}
+  footer {
+  border-top:1px solid #ccc;
+  padding-top:1em;
+  margin-top:2em;
+  margin-bottom:3em;
+  font-size:90%;
+  letter-spacing:0.01em;
+  }  
 
 @media screen and (max-width:768px){
   header,section,aside,footer{
