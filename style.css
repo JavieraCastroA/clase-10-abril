@@ -1,9 +1,10 @@
 header,section,aside,footer{
-  background-color: silver;
+  background:rgba{255,255,255,1};
+  
 }
 
 @media screen and (max-width:768px){
   header,section,aside,footer{
-background-color: black;
+background-color:#fff;
   }
 }
